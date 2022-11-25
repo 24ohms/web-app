@@ -83,7 +83,7 @@ $json_array = json_decode($json, true);
                 <div class="col">
                     <div class="item">
                         <div class="time"><?php echo $imsak; ?></div>
-                        <div class="txt">Imsak</div>
+                        <div class="txt">study</div>
                     </div>
                 </div>
                 <div class="col">
@@ -95,31 +95,31 @@ $json_array = json_decode($json, true);
                 <div class="col">
                     <div class="item">
                         <div class="time"><?php echo $Fajr; ?></div>
-                        <div class="txt">Fajr</div>
+                        <div class="txt">sunset</div>
                     </div>
                 </div>
                 <div class="col">
                     <div class="item">
                         <div class="time"><?php echo $Dhuhr; ?></div>
-                        <div class="txt">Dhuhr</div>
+                        <div class="txt">breakfast</div>
                     </div>
                 </div>
                 <div class="col">
                     <div class="item">
                         <div class="time"><?php echo $Asr; ?></div>
-                        <div class="txt">Asr</div>
+                        <div class="txt">adypu</div>
                     </div>
                 </div>
                 <div class="col">
                     <div class="item">
                         <div class="time"><?php echo $Sunset; ?></div>
-                        <div class="txt">Sunset</div>
+                        <div class="txt">lunch</div>
                     </div>
                 </div>
                 <div class="col">
                     <div class="item">
                         <div class="time"><?php echo $Maghrib; ?></div>
-                        <div class="txt">Maghrib</div>
+                        <div class="txt">evening</div>
                     </div>
                 </div>
                 <div class="col">
@@ -159,7 +159,7 @@ $json_array = json_decode($json, true);
     <!-- #Footer Section# -->
     <footer>
         <div class="container">
-            <p class="footer-text">Coded and maintained with ❤️ by <a href="https://www.youtube.com/PureCoding/" target="_blank">Pure Coding</a> © 2021</p>
+            <p class="footer-text">Coded and maintained with ❤️ by <a href="https://www.youtube.com/PureCoding/" target="_blank"></a> © Adypu</p>
         </div>
     </footer>
 </body>

@@ -3,23 +3,23 @@
 $user_ip = $_SERVER["REMOTE_ADDR"];
 $json = file_get_contents("https://api.pray.zone/v2/times/today.json?ip=" . $user_ip . "&timeformat=1");
 $json_array = json_decode($json, true);
-if ($json_array["status"] == "OK") {
-    $imsak = $json_array["results"]["datetime"][0]["times"]["Imsak"];
-    $Sunrise = $json_array["results"]["datetime"][0]["times"]["Sunrise"];
-    $Fajr = $json_array["results"]["datetime"][0]["times"]["Fajr"];
-    $Dhuhr = $json_array["results"]["datetime"][0]["times"]["Dhuhr"];
-    $Asr = $json_array["results"]["datetime"][0]["times"]["Asr"];
-    $Sunset = $json_array["results"]["datetime"][0]["times"]["Sunset"];
-    $Maghrib = $json_array["results"]["datetime"][0]["times"]["Maghrib"];
-    $Isha = $json_array["results"]["datetime"][0]["times"]["Isha"];
-    $Midnight = $json_array["results"]["datetime"][0]["times"]["Midnight"];
-    $country = $json_array["results"]["location"]["country"];
-    $city = $json_array["results"]["location"]["city"];
-    $timezone = $json_array["results"]["location"]["timezone"];
-} else {
-    echo "<h1>Not available in your country!!!</h1>";
-    die();
-}
+// if ($json_array["status"] == "OK") {
+//     $imsak = $json_array["results"]["datetime"][0]["times"]["Imsak"];
+//     $Sunrise = $json_array["results"]["datetime"][0]["times"]["Sunrise"];
+//     $Fajr = $json_array["results"]["datetime"][0]["times"]["Fajr"];
+//     $Dhuhr = $json_array["results"]["datetime"][0]["times"]["Dhuhr"];
+//     $Asr = $json_array["results"]["datetime"][0]["times"]["Asr"];
+//     $Sunset = $json_array["results"]["datetime"][0]["times"]["Sunset"];
+//     $Maghrib = $json_array["results"]["datetime"][0]["times"]["Maghrib"];
+//     $Isha = $json_array["results"]["datetime"][0]["times"]["Isha"];
+//     $Midnight = $json_array["results"]["datetime"][0]["times"]["Midnight"];
+//     $country = $json_array["results"]["location"]["country"];
+//     $city = $json_array["results"]["location"]["city"];
+//     $timezone = $json_array["results"]["location"]["timezone"];
+// } else {
+//     echo "<h1>Not available in your country!!!</h1>";
+//     die();
+// }
 
 ?>
 
